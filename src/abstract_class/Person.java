@@ -8,6 +8,11 @@ public abstract class Person {
 
     public abstract String getDescription();
 
+    @Override
+    public String toString() {
+        return getClass().getName() + "[name=" + name + "]" + "[surname=" + surname + "]";
+    }
+
     private String name;
     private String surname;
 }

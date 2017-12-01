@@ -30,5 +30,10 @@ public class Student extends Person {
         return 7 * getName().hashCode() + 11 * getSurname().hashCode() + 13 * major.hashCode();
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "[major=" + major + "]";
+    }
+
     private String major;
 }

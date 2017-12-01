@@ -44,6 +44,11 @@ public class Employee extends Person {
         return 7 * getFullName().hashCode() + 11 * new Double(getSalary()).hashCode() + 13 * hireDay.hashCode();
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "[salary=" + salary + "][hire day=" + hireDay.toString() + "]";
+    }
+
     private double salary;
     private Date hireDay;
 }

@@ -20,5 +20,14 @@ public class Manager extends Employee {
         return super.hashCode() + 15 * new Double(bonus).hashCode();
     }
 
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "[bonus=" + bonus + "]";
+    }
+
     double bonus;
 }

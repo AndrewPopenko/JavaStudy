@@ -14,9 +14,9 @@ public class PersonTest {
         Employee employee1 = new Employee("Harry", "Hacker", 50000, 1989, 10, 1);
         Employee employee2 = new Employee("John", "Smith", 55000, 1990, 10, 1);
         Employee employee11 = new Employee("Harry", "Hacker", 50000, 1989, 10, 1);
-        Manager manager1 = new Manager("Harry", "Hacker", 50000, 1989, 10, 1, 5);
+        Manager manager1 = new Manager("Big", "Boss", 50000, 1989, 10, 1, 5);
         Manager manager2 = new Manager("John", "Smith", 55000, 1990, 10, 1, 5);
-        Manager manager11 = new Manager("Harry", "Hacker", 50000, 1989, 10, 1, 5);
+        Manager manager11 = new Manager("Big", "Boss", 50000, 1989, 10, 1, 5);
         Student student1 = new Student("Tom", "Hanks", "actor");
         Student student2 = new Student("Bill", "Gates", "computer since");
         Student student11 = new Student("Tom", "Hanks", "actor");
@@ -66,5 +66,9 @@ public class PersonTest {
             System.out.println("student1.hashCode() = " + student1.hashCode());
             System.out.println("student2.hashCode() = " + student2.hashCode() + "\n");
         }
+
+        System.out.println("student1.toString() = " + student1.toString());
+        System.out.println("manager1.toString() = " + manager1.toString());
+        System.out.println("employee1.toString() = " + employee1.toString());
     }
 }
