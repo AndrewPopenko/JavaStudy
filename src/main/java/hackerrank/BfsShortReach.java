@@ -20,10 +20,10 @@ public class BfsShortReach {
             int u = edges[i][0];
 
             for(int j = 0; j < 2; j++) {
-                int v = edges[i][j];
+                int v = edges[i][j] - 1;
 
-                if (distance[v-1] == -1) {
-                    distance[v-1] = (distance[u-1] + 1) * 6;
+                if (distance[v] == -1) {
+                    distance[v] = (distance[u-1] + 1) * 6;
                     count++;
                     if (count >= m) {
                         return trimArr(n, distance);
