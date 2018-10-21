@@ -1,4 +1,4 @@
-package horstman.clone;
+package horstman.part.interfaces.clone;
 
 import java.util.Date;
 import java.util.GregorianCalendar;

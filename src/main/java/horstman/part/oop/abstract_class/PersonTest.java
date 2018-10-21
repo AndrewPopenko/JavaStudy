@@ -1,4 +1,4 @@
-package horstman.abstract_class;
+package horstman.part.oop.abstract_class;
 
 import java.util.ArrayList;
 

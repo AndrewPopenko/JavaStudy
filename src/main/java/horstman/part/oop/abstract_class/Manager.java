@@ -1,4 +1,4 @@
-package horstman.abstract_class;
+package horstman.part.oop.abstract_class;
 
 public class Manager extends Employee {
     public Manager(String name, String surname, double salary, int year, int month, int day, double bonus) {

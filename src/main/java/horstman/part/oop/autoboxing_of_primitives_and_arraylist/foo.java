@@ -1,4 +1,4 @@
-package horstman.autoboxing_of_primitives_and_arraylist;
+package horstman.part.oop.autoboxing_of_primitives_and_arraylist;
 
 import java.util.ArrayList;
 

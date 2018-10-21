@@ -1,4 +1,4 @@
-package horstman.abstract_class;
+package horstman.part.oop.abstract_class;
 
 public abstract class Person {
     public Person(String name, String surname) { this.name = name; this.surname = surname; }

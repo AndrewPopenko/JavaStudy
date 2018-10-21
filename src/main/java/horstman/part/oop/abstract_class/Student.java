@@ -1,4 +1,4 @@
-package horstman.abstract_class;
+package horstman.part.oop.abstract_class;
 
 public class Student extends Person {
     public Student(String name, String surname, String major) {

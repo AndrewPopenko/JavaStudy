@@ -1,4 +1,4 @@
-package horstman.reflection_test;
+package horstman.part.oop.reflection_test;
 
 public class ReflectionAndEnum {
 

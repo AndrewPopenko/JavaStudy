@@ -1,4 +1,4 @@
-package horstman.stdinterface;
+package horstman.part.interfaces.stdinterface;
 
 import java.util.Arrays;
 
